@@ -1,0 +1,17 @@
+{
+  "name": "Script injection test",
+  "version": "2.0",
+  "permissions": [
+    "tabs",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["main.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Inject a content script"
+  },
+  "manifest_version": 2
+}
+
